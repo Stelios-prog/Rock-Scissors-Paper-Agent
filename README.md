@@ -20,7 +20,7 @@ This project implements a machine learning model to play the Rock-Paper-Scissors
 - Scikit-Learn
 
 ## Installation
-1. Clone the repository: `git clone [https://github.com/Stelios-prog/Rock-Scissors-Paper-Agent]`.
+1. Clone the repository: `git clone https://github.com/Stelios-prog/Rock-Scissors-Paper-Agent`.
 2. Install required packages: `pip install -r requirements.txt`.
 
 ## Usage
@@ -51,4 +51,4 @@ Feel free to fork the repository and contribute to the project.
 This project is licensed under the MIT License.
 
 ## Contact
-For any queries, please contact [papargirisstelios3@gmail.com].
+For any queries, please contact papargirisstelios3@gmail.com.
