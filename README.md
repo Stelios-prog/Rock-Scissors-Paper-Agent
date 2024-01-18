@@ -1,50 +1,54 @@
-# Rock-Scissors-Paper-Agent
+# Rock-Paper-Scissors Game Agent - README
 
-Based on the contents of the provided Python scripts and the example README file, here's a draft for the README for your GitHub repository:
+## Introduction
+This project implements a machine learning model to play the Rock-Paper-Scissors game. It utilizes TensorFlow and Keras to train a deep learning model that recognizes and responds to images representing rock, paper, or scissors gestures.
 
----
+## Features
+- Image preprocessing for better model training.
+- Implementation of Convolutional Neural Network (CNN) using Keras.
+- Data augmentation to enhance the training dataset.
+- Evaluation using confusion matrix and prediction accuracy.
+- Game simulation against a randomly acting agent.
 
-# Image Classification and Processing Toolkit
-
-This repository contains a set of Python scripts designed for image classification and processing tasks. The toolkit leverages TensorFlow and Keras to create and train deep learning models, process images, and make predictions.
-
-## Scripts Overview
-
-1. **my_model.py**
-   - Defines a convolutional neural network (CNN) model using Keras.
-   - Includes layers like Conv2D, MaxPooling2D, Flatten, Dense, and Dropout.
-   - The function `create_model` takes `input_shape` as an argument.
-
-2. **first.py**
-   - Main script that integrates the model defined in `my_model.py`.
-   - Uses TensorFlow and Keras callbacks like EarlyStopping, ReduceLROnPlateau, and ModelCheckpoint.
-   - Includes data preprocessing, model training, and evaluation.
-
-3. **functions.py**
-   - Contains utility functions for image processing.
-   - Functions include `load_data`, `preprocess_image`, `play_game`, and `make_decision`.
-   - Handles loading and preprocessing of images for model training and predictions.
-
-## How to Use
-
-1. Install the required libraries:
-   ```
-   pip install tensorflow keras numpy matplotlib
-   ```
-
-2. Run `first.py` to train the model and evaluate its performance.
-
-## Dependencies
-
+## Requirements
+- Python 3.x
 - TensorFlow
 - Keras
-- Numpy
+- NumPy
 - Matplotlib
+- Seaborn
+- Scikit-Learn
+
+## Installation
+1. Clone the repository: `git clone [https://github.com/Stelios-prog/Rock-Scissors-Paper-Agent]`.
+2. Install required packages: `pip install -r requirements.txt`.
+
+## Usage
+1. Load the dataset: The dataset should be in the format as specified in the Kaggle dataset.
+2. Train the model: Run the training script to train the model using the dataset.
+3. Test the model: Evaluate the model's performance on the test dataset.
+4. Play the game: Simulate the game for a specified number of rounds and observe the model's performance.
+
+## Dataset
+This project uses a dataset from Kaggle, containing over 700 images each for rock, paper, and scissors gestures.
+
+## Model Architecture
+The model architecture includes multiple convolutional layers, max-pooling layers, a flattening layer, dropout for regularization, and dense layers for final classification.
+
+## Training
+The training involves data augmentation techniques and uses callbacks like ModelCheckpoint, ReduceLROnPlateau, and EarlyStopping.
+
+## Evaluation
+Performance is evaluated using a confusion matrix and accuracy metrics on the test dataset.
+
+## Game Simulation
+The game simulation involves the model making predictions against a random agent, with the financial outcome based on wins, draws, and losses.
+
+## Contribution
+Feel free to fork the repository and contribute to the project.
 
 ## License
+This project is licensed under the MIT License.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
----
-
-Feel free to modify and expand this README based on the specific details and additional information you'd like to include about your scripts and their functionalities.
+## Contact
+For any queries, please contact [papargirisstelios3@gmail.com].
